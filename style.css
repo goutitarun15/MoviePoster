@@ -1,0 +1,36 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color:aliceblue;
+}
+.hero-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+img{
+    border-radius: 12px;
+    box-shadow: 0 5px 15px white;
+}
+.poster-card{
+    flex: 1 1 200px;
+    max-width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease;
+
+}
+.poster-card:hover{
+    transform:scale(1.05);
+}
+h1{
+    font-size: larger;
+    margin: 10px 0 5px 0;
+}
